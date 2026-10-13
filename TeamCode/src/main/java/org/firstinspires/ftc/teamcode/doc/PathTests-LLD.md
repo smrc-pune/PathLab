@@ -4,7 +4,7 @@
 |---|---|
 | **Project** | PathLab (SMRC FTC 2026) |
 | **Component** | Path Tests: OpModes (`teamcode.pathtests`), helper (`teamcode.utils`), configuration (`teamcode.configurations`) |
-| **Related** | [High Level Design](PathTests-HLD.md) |
+| **Related** | [High Level Design](PathTests-HLD.md) · [User Guide](PathTests-UserGuide.md): expected movement in each test |
 | **Audience** | Students (no Java or Pedro Pathing experience needed) and their mentors |
 | **Libraries** | Pedro Pathing 3.0.1 (`com.pedropathing:revhub`), FTC Dashboard 0.6.0, FTC SDK 12.0 |
 | **Status** | Built: configuration, helper, all 7 tests (compiles). Not yet run on the robot (§11, §12). |
@@ -99,7 +99,7 @@ Everything goes in four folders directly under `TeamCode/src/main/java/org/first
   `HardwareNames`. If a student wants to change a setting, this is the only folder they look in.
 - **`utils/`**: helper code that the OpModes use but students don't need to change.
 - **`pathtests/`**: only the OpModes students run and read.
-- **`doc/`**: `PathTests-HLD.md` (high level design) and `PathTests-LLD.md` (this document).
+- **`doc/`**: `PathTests-HLD.md` (high level design) and `PathTests-LLD.md` (this document), plus `PathTests-UserGuide.md` (what the robot should do in each test, with pictures in `doc/images/`).
   They sit next to the code so students find them in Android Studio. Gradle ignores `.md`
   files, so they do not affect the build.
 

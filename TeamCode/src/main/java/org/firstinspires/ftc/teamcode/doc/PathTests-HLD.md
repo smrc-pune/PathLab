@@ -5,7 +5,7 @@
 | **Project** | PathLab (SMRC FTC 2026) |
 | **Component** | Path Tests |
 | **Audience** | Mentors, coaches, and anyone reviewing the design. Students start with §2 and §6. |
-| **Related** | [Low Level Design](PathTests-LLD.md): classes, methods, code walkthrough, field procedures |
+| **Related** | [Low Level Design](PathTests-LLD.md): classes, methods, code walkthrough, field procedures · [User Guide](PathTests-UserGuide.md): expected movement in each test |
 | **Status** | Built: configuration, helper, all 7 tests (compiles). Not yet run on the robot. |
 
 ---
