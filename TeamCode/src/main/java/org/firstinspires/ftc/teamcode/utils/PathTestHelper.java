@@ -370,7 +370,7 @@ public class PathTestHelper {
         if (follower.following()) {
             // PEDRO PATHING DETAIL: tangentialVelocity() is the robot's speed along the path.
             // It only makes sense (and only works) while following a path.
-            packet.put("Speed (in per s)", follower.tangentialVelocity());
+            //packet.put("Speed (in per s)", follower.tangentialVelocity());
             packet.put("Playback completion (%)", follower.completion() * 100);
         }
 
